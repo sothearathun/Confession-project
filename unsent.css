@@ -1,0 +1,138 @@
+header{
+  background-color: lightblue;
+  padding: 1rem 0;
+  
+}
+
+header a{
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-family: serif;
+}
+
+.add{
+  text-align: center;
+  border: 2px solid lightblue;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.5);
+  padding: 3rem 0;
+}
+.add a{
+  text-decoration: none;
+  color: white;
+  background-color: lightblue;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(111, 182, 230);
+}
+.discover{
+  text-align: center;
+ 
+  padding-top: 5rem;
+}
+.discover p{
+  font-size: 1.5rem;
+  font-family: serif;
+}
+.discover #search{
+  padding: 0 2rem;
+  text-align: left;
+  font-style: normal;
+}
+.discover i{
+  padding: 0 5px;
+}
+
+
+/* add yours */
+
+.default{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.instruction{
+
+  margin-top: 5%;
+  text-align: center;
+  border: 2px solid lightblue;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.5);
+  padding: 2rem 0;
+}
+.instruction p{
+  font-size: 20px;
+  font-family: serif;
+  letter-spacing: 1px;
+}
+.instruction label{
+  font-size: 15px;
+}
+.instruction select{
+  background-color: lightblue;
+  color: white;
+  border: 1px solid rgb(111, 182, 230);
+  border-radius: 10px;
+  width: 9rem;
+}
+
+/* card property */
+
+/* Target all input and textarea elements within any card */
+.card input[type="text"],
+.card textarea {
+  border: none; /* Ensure no border is visible by default */
+  background-color: transparent; /* Ensure the background is transparent */
+  outline: none;
+  /* Remove any outline */
+}
+
+/* Remove border and outline when focused */
+.card input[type="text"]:focus,
+.card textarea:focus {
+  border: none;  /* Remove the border on focus */
+  outline: none; /* Remove the default focus outline */
+  box-shadow: none; /* Remove any box-shadow that might be applied */
+}
+.card{
+  padding: 30px;
+  margin: auto;
+}
+
+.delete-btn{
+  background-color: lightblue;
+  color: white;
+  border: 1px solid rgb(111, 182, 230);
+  border-radius: 10px;
+  width: 5rem;
+}
+
+/* empty confession */
+.no-confessions{
+  text-align: center;
+  border: 2px solid lightblue;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.5);
+  width: 50%;
+  margin: 4rem auto 0 auto;
+}
+
+/* footer */
+.footer{
+  text-align: center;
+  padding: 1rem 0;
+  background-color: lightblue;
+  color: white;
+  line-height: 1rem;
+  margin-top: 4rem;
+}
